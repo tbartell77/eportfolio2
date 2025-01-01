@@ -89,6 +89,84 @@
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title mdoal__title--about">
+            Here's a bit more about me.
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--about">
+            Frontend Software Engineer
+          </h4>
+          <p class="modal__para">
+            I’m a 33-year-old American
+            <b class="blue">Front-End Software Engineer</b> with a deep passion
+            for building websites that provide exceptional and seamless
+            <b class="blue">user experiences.</b>
+            <br />
+            Currently, I tackle highly complex engineering challenges and learn
+            from a team of some of the most <b class="blue">skilled</b> and
+            <b class="blue">experienced</b> software engineers on a daily basis,
+            constantly growing both <b class="blue">professionally</b> and
+            <b class="blue">personally.</b>
+          </p>
+          <div class="modal__languages">
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                alt=""
+              />
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                alt=""
+              />
+              <span class="language__name">JavaScript</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal__half modal__contact">
+          <h3 class="modal__title modal__title--contact">
+            Let's Connect!
+          </h3>
+          <h3 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h3>
+          <form id="contact__form" action="">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input type="text" name="user_name" class="input" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input type="email" name="user_email" class="input" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea type="text" name="message" class="input" required></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
     <section class="projects">
       <div class="container">
@@ -120,10 +198,74 @@
                   </p>
                   <div class="project__description--links">
                     <a href="" class="project__description--link">
-                        <i class="fa-brands fa-github"></i>
+                      <i class="fa-brands fa-github"></i>
                     </a>
                     <a href="" class="project__description--link">
-                        <i class="fa-solid fa-link"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim accusamus nesciunt molestiae minima iusto dolore
+                    necessitatibus ex sint cum! Possimus aspernatur eos sint
+                    hic. Reprehenderit porro deleniti vero facere. Dolorem!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim accusamus nesciunt molestiae minima iusto dolore
+                    necessitatibus ex sint cum! Possimus aspernatur eos sint
+                    hic. Reprehenderit porro deleniti vero facere. Dolorem!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
                 </div>
@@ -133,5 +275,37 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img class="footer__logo--img" src="./assets/TB Logo.jpg" alt="" />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >GitHub
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >LinkedIn
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Email
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+              >Resume
+            </a>
+          </div>
+          <div class="footer__copyright">Copyright © 2024 Tyler Bartell</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
